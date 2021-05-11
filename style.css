@@ -1,0 +1,135 @@
+header {
+  background: rgb(228, 210, 210);
+  padding: 0.3rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 3rem;
+}
+
+header a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: rgb(182, 50, 50);
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+section#front {
+  background-image: url("https://global.yamaha-motor.com/business/mc/img/index_key_002_sp.jpg");
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+}
+
+section#front .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+section#front h2 {
+  background: rgba(190, 68, 68, 0.5);
+  padding: 0.5rem;
+  display: inline;
+  color: black;
+}
+
+section h2 {
+  color: rgb(163, 74, 74);
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#items {
+  display: flex;
+}
+
+.item {
+  background: rgb(204, 200, 200);
+  width: calc(25% - 3 * 0.5rem / 4);
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+.item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+section#list h4,
+section#list {
+  font-weight: bold;
+  text-align: center;
+}
+
+section#list p {
+  text-align: justify;
+}
+
+h4::before {
+  content: "\25C6";
+  padding-right: 0.3rem;
+}
+
+#end {
+  display: flex;
+  align-items: flex-start;
+}
+
+form#inputs {
+  margin-right: 0.5rem;
+  min-width: calc(50% - 0.25rem);
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 0.3rem;
+  color: rgb(185, 175, 175);
+  border: 1px solid rgb(185, 175, 175);
+  box-sizing: border-box;
+}
+
+input {
+  height: 2rem;
+}
+
+#map img {
+  width: 100%;
+  height: 40vh;
+}
+
+span {
+  color: rgb(131, 18, 18);
+}
+
+footer {
+  color: white;
+  background: rgb(228, 210, 210);
+  text-align: center;
+  padding: 0.5rem;
+}
